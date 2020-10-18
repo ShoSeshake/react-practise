@@ -42,3 +42,17 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+gem 'react-rails'
+gem 'kaminari'
+gem 'devise'
+
+# haml用
+gem 'haml-rails'
+# font-awesome
+# gem 'font-awesome-sass', '~> 5.4.1'
+
+# 日本語化
+gem 'rails-i18n'
+gem 'enum_help'
