@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_10_18_014255) do
   end
 
   create_table "tweets", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.text "title"
     t.text "text"
     t.string "image"
     t.bigint "user_id", null: false
